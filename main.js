@@ -27,7 +27,7 @@ const showWinner = (userWin,userChoice,compChoice) =>{
         // console.log(" Congratulations  You Win !!!");
         userScore++;
         userScorePointer.innerText =userScore;
-        msg.innerText = `Congratulations  You Win !!! Your ${userChoice} beats ${compChoice}`;
+        msg.innerText = `Congratulations You Win !!! Your ${userChoice} beats ${compChoice}`;
         msg.style.backgroundColor = "green";
     } else {
         // console.log(" You Lose, Better Next Time ");
